@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: notifier.NotifierApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.434 s <<< FAILURE! - in notifier.NotifierApplicationTest
+worksAsExpected(notifier.NotifierApplicationTest)  Time elapsed: 2.33 s  <<< FAILURE!
+org.junit.ComparisonFailure: When the text field has the text "Hello world!" and the button is pressed, then the same text should be copied to the text element. Now the textelement contained:  expected:<[Hello world!]> but was:<[]>
+	at notifier.NotifierApplicationTest.worksAsExpected(NotifierApplicationTest.java:91)
+
